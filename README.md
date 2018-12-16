@@ -46,6 +46,16 @@ copyright = "My Name"
 googleAnalytics = "XXX"
 disqusShortname = "XXX"
 
+[Privacy]
+
+[Privacy.disqus]
+    disable = true
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
 [Author]
     name = "My Name"
     profile = "https://google.com/+XXX"
@@ -72,6 +82,10 @@ disqusShortname = "XXX"
     dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
